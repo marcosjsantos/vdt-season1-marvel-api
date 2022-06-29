@@ -28,7 +28,7 @@ describe('POST /characters', function () {
                 'Vingadores da costa oeste',
                 'Irmandade de mutantes'
             ],
-            active: false
+            active: true
         }
 
         before(function () {
