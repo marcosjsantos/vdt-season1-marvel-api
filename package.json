@@ -1,0 +1,33 @@
+{
+  "dependencies": {
+    "@faker-js/faker": "^7.3.0",
+    "cypress": "^9.7.0"
+  },
+  "name": "vdt-season1-marvel-api",
+  "description": "<h1 align=\"left\">\r     <img src=\".github/logo-stiker.svg\" width=\"250px\">\r </h1>",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "@bahmutov/cy-api": "^2.1.3",
+    "cypress": "^9.7.0"
+  },
+  "scripts": {
+    "back2thepast": "sh ./back2thepast.sh",
+    "test": "npm run back2thepast && npx cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcosjsantos/vdt-season1-marvel-api.git"
+  },
+  "keywords": [
+    "nodejs",
+    "cypress",
+    "javascript"
+  ],
+  "author": "Marcos Santos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcosjsantos/vdt-season1-marvel-api/issues"
+  },
+  "homepage": "https://github.com/marcosjsantos/vdt-season1-marvel-api#readme"
+}
